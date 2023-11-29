@@ -97,24 +97,41 @@
               para organização de tarefas diárias.
             </p>
             <div class="botoes">
-              <a href="https://github.com/carlos-wylliam/to_do_list" target="_blank"><button class="buttons-project"> Repositorio</button></a>
-              <a href="https://carlos-wylliam.github.io/to_do_list/" target="_blank"><button class="buttons-project">Projeto no ar</button></a> 
+              <a
+                href="https://github.com/carlos-wylliam/to_do_list"
+                target="_blank"
+                ><button class="buttons-project">Repositorio</button></a
+              >
+              <a
+                href="https://carlos-wylliam.github.io/to_do_list/"
+                target="_blank"
+                ><button class="buttons-project">Projeto no ar</button></a
+              >
             </div>
           </div>
         </div>
       </section>
       <section id="contact" class="contact">
         <h2>O que achou? Fala comigo por e-mail!</h2>
-        <div class="forms-email">
-          <form>
-            <input
-              id="email"
-              type="email"
-              placeholder="Envie seu e-mail para contato"
-            />
-            <input id="submit" type="submit" value="ENVIE" />
-          </form>
-        </div>
+        <form
+          action="https://formsubmit.co/carloswylliam023@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Mensagem</label>
+          <textarea name="message" id="message"></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/thanks.html"
+          />
+          <button type="submit">ENVIAR</button>
+        </form>
       </section>
       <footer>
         <p>©carlos-wylliam 2023</p>
