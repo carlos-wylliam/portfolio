@@ -288,7 +288,10 @@
   
   .thumbnail {
     width: 100%;
-    background-color: #b7c0d4;
+    border-radius: 10px;
+    background: #b7c0d4 url(../assets/to-do-list.png) center center;
+    background-size: contain;
+    box-shadow: 5px 5px 10px #a2aabb, -5px -5px 10px #b7c0d4;
     max-width: 450px;
     height: 300px;
   }
