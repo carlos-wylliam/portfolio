@@ -151,10 +151,6 @@ a {
     font-size: 2rem;
   }
 
-  #email {
-    width: 300px;
-  }
-
   .template-projects {
     flex-direction: column;
   }
@@ -168,6 +164,16 @@ a {
     justify-content: center;
     gap: 10px;
   }
+
+  .thumbnail {
+    width: 70vw;
+    height: 236px;
+  }
+
+  .form {
+    width: 70%;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
