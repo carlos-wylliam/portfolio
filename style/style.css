@@ -114,7 +114,8 @@ header > img {
 }
 
 .img-profile {
-  background-color: #b7c0d4;
+  background: var(--cor-primaria) url('../assets/foto-perfil.png') center center;
+  background-size: cover;
   height: 322px;
   width: 322px;
   border-radius: 51% 49% 50% 50% / 37% 37% 63% 63%;
