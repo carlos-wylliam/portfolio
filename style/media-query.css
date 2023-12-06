@@ -127,7 +127,7 @@ a {
     width: 61px;
     border-radius: 10px;
     background: linear-gradient(145deg, #4d34e3, #412cbf);
-    box-shadow: 6px 6px 12px #3d2ab4, -6px -6px 12px #5338f4;
+    box-shadow: 2px 2px 5px #3d2ab4, -2px -2px 5px #5338f4;
   }
 
   #html,

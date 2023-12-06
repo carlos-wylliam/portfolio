@@ -256,7 +256,7 @@ strong {
   height: 98px;
   border-radius: 23px;
   background: linear-gradient(145deg, #4d34e3, #412cbf);
-  box-shadow: 5px 5px 10px #3d2ab4, -5px -5px 10px #5338f4;
+  box-shadow: 4px 4px 7px #3d2ab4, -4px -4px 7px #5338f4;
 
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
